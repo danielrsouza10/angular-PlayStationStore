@@ -1,0 +1,41 @@
+.menu-container {
+  border: 1px solid black;
+}
+
+.menu__logo {
+  font-family: "Times New Roman", Times, serif;
+  color: #ffffff;
+  text-align: end;
+  background-color: #000000;
+}
+
+.menu__options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__options__links {
+  display: flex;
+  gap: 10px;
+}
+
+.menu__options__links > a {
+  color: #000000;
+  text-decoration: none;
+  color: #7b7b7b;
+}
+
+.menu__pages {
+  display: flex;
+}
+
+.menu__pages__links {
+  margin: auto;
+}
+
+.menu__pages__links > a {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #000000;
+  text-decoration: none;
+}
