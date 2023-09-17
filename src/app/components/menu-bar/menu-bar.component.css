@@ -12,17 +12,19 @@
 .menu__options {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menu__options__links {
   display: flex;
+  justify-content: space-between;
   gap: 10px;
 }
 
 .menu__options__links > a {
-  color: #000000;
   text-decoration: none;
   color: #7b7b7b;
+  font-weight: bold;
 }
 
 .menu__pages {

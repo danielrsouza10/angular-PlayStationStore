@@ -1,0 +1,31 @@
+.big-card-container {
+  height: 550px;
+  width: 400px;
+}
+
+.big-card__img > img {
+  height: 100%;
+  width: 100%;
+}
+
+.big-card__description {
+  background-color: rgba(0, 0, 0, 0.301);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  position: relative;
+  top: -60px;
+}
+
+/* .big-card__description__title {
+  display: flex;
+  flex-direction: column;
+} */
+.big-card__description__price {
+  display: flex;
+  justify-content: space-between;
+}
