@@ -1,11 +1,8 @@
 .main-container {
   margin: auto;
-  padding: 0;
-  border: 5px solid red;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 1600px;
-
-  background-color: blue;
+  padding: 0px 10px 0 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  background-color: #0e1d3c;
 }
