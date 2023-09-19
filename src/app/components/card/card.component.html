@@ -1,6 +1,10 @@
 <a class="card-container">
-  <img class="card__img" src="/assets/images/bt-5.jpg" alt="" srcset="" />
+  <img class="card__img" [src]="[cardImage]" alt="" srcset="" />
 
-  <app-card-label></app-card-label>
-  <app-card-price></app-card-price>
+  <app-card-label cardLabel="{{ cardLabel }}"></app-card-label>
+  <app-card-price
+    cardTitle="{{ cardTitle }}"
+    cardConsole="{{ cardConsole }}"
+    cardPrice="{{ cardPrice }}"
+  ></app-card-price>
 </a>

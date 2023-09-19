@@ -16,3 +16,13 @@
   display: flex;
   justify-content: space-between;
 }
+
+.card-price-detail-console {
+  display: flex;
+  gap: 5px;
+}
+
+.card-price-detail-console > span {
+  color: red;
+  font-weight: bolder;
+}
