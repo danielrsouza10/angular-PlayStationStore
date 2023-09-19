@@ -6,7 +6,6 @@
   overflow: hidden;
   display: flex;
   border-radius: 10px;
-  transition: tr;
 }
 
 .card__img {

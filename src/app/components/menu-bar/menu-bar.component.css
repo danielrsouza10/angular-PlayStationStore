@@ -21,7 +21,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 42px;
+  height: 52px;
   margin: 0 15px 0 15px;
   padding-right: 30px;
 }
@@ -65,4 +65,9 @@
   border-radius: 5px;
   font-weight: bold;
   color: white;
+}
+.menu__options_buttons > input {
+  height: 32px;
+  width: 150px;
+  border-radius: 5px;
 }

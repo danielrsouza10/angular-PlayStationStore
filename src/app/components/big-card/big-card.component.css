@@ -1,11 +1,10 @@
 .big-card-container {
-  border: 5px solid red;
-  margin: auto;
+  margin: 25px auto;
   width: 100%;
   height: 80%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
 }
